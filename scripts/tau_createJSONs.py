@@ -159,6 +159,42 @@ def main(args):
       'Tight':   ( SF(1.47,0.27), SF1, SF(0.66,0.20) ),
       'VTight':  ( SF(1.79,0.42), SF1, SF(0.91,0.50) ),
       'VVTight': ( SF(2.46,0.90), SF1, SF(0.46,1.00) ),
+    }, #https://indico.cern.ch/event/1062355/contributions/4466513/attachments/2287516/3888155/Pre_TauFR_updateUL_August21.pdf
+    'UL2016_preVFP': {
+      'VVLoose': ( SF(1.12,0.04), SF1, SF(1.07,0.07) ),
+      'VLoose':  ( SF(0.94,0.05), SF1, SF(0.99,0.07) ),
+      'Loose':   ( SF(1.00,0.04), SF1, SF(1.04,0.08) ),
+      'Medium':  ( SF(1.24,0.05), SF1, SF(1.06,0.10) ),
+      'Tight':   ( SF(1.66,0.06), SF1, SF(1.15,0.17) ),
+      'VTight':  ( SF(2.15,0.24), SF1, SF(1.71,0.44) ),
+      'VVTight': ( SF(2.68,0.45), SF1, SF(3.61,1.20) ),
+    },
+    'UL2016_postVFP': {
+      'VVLoose': ( SF(1.06,0.05), SF1, SF(0.95,0.06) ),
+      'VLoose':  ( SF(1.08,0.05), SF1, SF(0.88,0.09) ),
+      'Loose':   ( SF(1.13,0.05), SF1, SF(0.83,0.16) ),
+      'Medium':  ( SF(1.19,0.07), SF1, SF(0.90,0.21) ),
+      'Tight':   ( SF(1.39,0.15), SF1, SF(0.83,0.32) ),
+      'VTight':  ( SF(1.39,0.37), SF1, SF(0.38,2.08) ),
+      'VVTight': ( SF(2.39,0.84), SF1, SF(0.00,0.71) ),
+    },
+    'UL2017': {
+      'VVLoose': ( SF(0.89,0.05), SF1, SF(0.93,0.06) ),
+      'VLoose':  ( SF(0.85,0.04), SF1, SF(0.89,0.07) ),
+      'Loose':   ( SF(0.97,0.04), SF1, SF(0.85,0.08) ),
+      'Medium':  ( SF(1.21,0.05), SF1, SF(0.82,0.09) ),
+      'Tight':   ( SF(1.63,0.10), SF1, SF(0.93,0.21) ),
+      'VTight':  ( SF(2.37,0.23), SF1, SF(1.04,0.41) ),
+      'VVTight': ( SF(3.37,0.20), SF1, SF(1.55,0.93) ),
+    },
+    'UL2018': {
+      'VVLoose': ( SF(0.90,0.04), SF1, SF(1.07,0.07) ),
+      'VLoose':  ( SF(0.89,0.04), SF1, SF(1.01,0.07) ),
+      'Loose':   ( SF(0.92,0.05), SF1, SF(0.94,0.08) ),
+      'Medium':  ( SF(0.99,0.06), SF1, SF(0.96,0.11) ),
+      'Tight':   ( SF(1.39,0.16), SF1, SF(1.02,0.23) ),
+      'VTight':  ( SF(1.92,0.39), SF1, SF(1.01,0.53) ),
+      'VVTight': ( SF(2.63,0.71), SF1, SF(2.65,0.07) ),
     },
   }
   antiLepSFs['DeepTau2017v2p1VSmu'] = {
